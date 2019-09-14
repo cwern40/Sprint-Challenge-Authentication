@@ -1,6 +1,4 @@
 const Auth = require('./auth-model');
-const server = require('../api/server');
-const request = require('supertest');
 const db = require('../database/dbConfig');
 
 describe('the authentication model', () => {
