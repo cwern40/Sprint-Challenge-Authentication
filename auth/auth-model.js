@@ -10,5 +10,5 @@ function findBy(filter) {
 }
 
 function add(user) {
-    
+    return db('users').insert(user)
 }
